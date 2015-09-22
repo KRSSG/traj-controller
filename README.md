@@ -1,5 +1,5 @@
 # traj_controller
-Node for controlling trajectories.
+Node for the trajectory controller.
 This package publishes `krssg_ssl_msgs/SSL_DetectionFrame.msg` on the topic `/grsim_data`.
 This package subscribes vision data from the topic `/vision`.
 
