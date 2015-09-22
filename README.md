@@ -3,12 +3,12 @@ Node for the trajectory controller.
 This package publishes `krssg_ssl_msgs/SSL_DetectionFrame.msg` on the topic `/grsim_data`.
 This package subscribes vision data from the topic `/vision`.
 
-**Dependencies:**
+### Dependencies
 `krssg_ssl_msgs`
 `grsim_comm`
 `vision_comm`
 
-###Runing
+### Runing
 Open up four terminal windows.
 **Terminal 1**
 ```
