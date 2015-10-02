@@ -63,10 +63,6 @@ void Callback(const krssg_ssl_msgs::SSL_DetectionFrame::ConstPtr& vmsg)
 	msg.velangular = 0;
 	msg.spinner = 0;
 	msg.wheelsspeed = 0;
-	msg.wheel1 = 0;
-	msg.wheel2 = 0;
-	msg.wheel3 = 0;
-	msg.wheel4 = 0;
 	
 	krssg_ssl_msgs::gr_Commands command;
 	command.robot_commands = msg;
